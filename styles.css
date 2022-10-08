@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.post{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.profile{
+    
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+.user{
+    text-align: left;
+    line-height: 1;
+    width: 90%;
+}
+
+.menu-dots{
+    font-size: 32px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.call-to-action{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.like-comment-share{
+    width: 90%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.like-comment-share i{
+    padding: 2px;
+}
+
+.text{
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.text p:first-child{
+    padding-bottom: 20px;
+}
